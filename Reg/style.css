@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: rgb(9, 9, 85);
+    padding: 10px;
+    height: 56vh;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.log{
+    float: left;
+}
+form{
+   float: right;
+    padding: 8px;
+    margin-right: -3%;
+}
+input[type=text]{
+    padding: 10px;
+    width: 80%;
+    background-color: rgb(9, 9, 85);
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+input::-webkit-input-placeholder{
+    color: white;
+    font-size: 15px;
+}
+.logo{
+    border-radius: 10px;
+    height: 50vh;
+    cursor: not-allowed;
+}
+button{
+    width: 90%;
+    padding: 8px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 15px 0 5px 0;
+    border: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(9, 9, 85);
+    color: white;
+    border: 2px solid white;
+}
+.check:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(226, 7, 7);
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.forget{
+    width: 300px;
+    justify-content: space-between;
+}
+.reg{
+    margin-right: 20%;
+    display: flex;
+    margin-top: 10px;
+}
+input[type=date]{
+    width: 65%;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
